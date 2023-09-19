@@ -1,0 +1,1410 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Inter_e66fe9';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/ec159349637c90ad-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Inter_e66fe9';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/513657b02c5c193f-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: '__Inter_e66fe9';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/fd4db3eb5472fc27-s.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: '__Inter_e66fe9';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/51ed15f9841b9f9d-s.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Inter_e66fe9';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/05a31a2ca4975f99-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Inter_e66fe9';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/d6b16ce4a6175f26-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Inter_e66fe9';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Inter_Fallback_e66fe9';src: local("Arial");ascent-override: 90.20%;descent-override: 22.48%;line-gap-override: 0.00%;size-adjust: 107.40%
+}.__className_e66fe9 {font-family: '__Inter_e66fe9', '__Inter_Fallback_e66fe9';font-style: normal
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/globals.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/*
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.flex {
+  display: flex;
+}
+.w-40 {
+  width: 10rem;
+}
+.flex-col {
+  flex-direction: column;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.border {
+  border-width: 1px;
+}
+.grayscale {
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+* {
+  overflow: hidden;
+}
+
+main {
+  background-image: url(/_next/static/media/alt-background.b2798fce.jpg);
+  /* Image by Freepik */
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header img{
+  width:100px;
+  margin-bottom: -1rem;
+  margin-top:-0.5rem;
+  transform:rotate(-10deg)
+}
+
+.landingcard {
+  border: 1px solid black;
+}
+
+.landing-text-box {
+  width: 50vw;
+  height: 50vh;
+  min-width: 400px;
+  min-height: 460px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin-top: 10%;
+  margin-left: 25%;
+  border-radius: 15px;
+  padding: 25px;
+  border: 2px solid black;
+}
+
+.landing-text-box h2 {
+  font-size: 2rem;
+}
+
+.landing-text-box p {
+  padding-top: 1rem;
+}
+
+.sign-in-form {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  min-width: 250px;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.input-boxes {
+  margin: 0 auto;
+  
+}
+
+.name-input{
+  height:2.5rem;
+  font-size: 1.2rem;
+}
+
+.sign-in-form p {
+  padding-top: 0.5;
+  padding-bottom: 0.5rem;
+}
+
+.sign-in-form input {
+  border: 1px solid gray;
+}
+
+#multiplayer-btn, #singleplayer-btn {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  width: 20vw;
+  background: rgb(95, 16, 137);
+  border-radius: 5px;
+color:rgb(213, 192, 213);
+}
+
+#multiplayer-btn:hover, #singleplayer-btn:hover {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  width: 20vw;
+  background: linear-gradient(30deg, rgb(163, 64, 249) 5%, rgb(244, 48, 48));
+  border-radius: 5px;
+  color: white;
+}
+
+.leaderboard-container{
+  display: flex !important;
+ 
+ text-align: center;
+
+
+}
+
+#leaderboard-btn { 
+  display: flex;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  width:100%;
+  justify-content: center;
+  background: rgb(95, 16, 137);
+  border-radius: 5px;
+  color: rgb(213, 192, 213);
+}
+
+#leaderboard-btn:hover { 
+display: flex;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  width:100%;
+  background: linear-gradient(30deg, rgb(163, 64, 249) 5%, rgb(244, 48, 48));
+  border-radius: 5px;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.517);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.599);
+  color: white;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  min-width: 30vw;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  margin-left: 35%;
+
+}
+
+.nav-link:hover {
+  text-shadow: 0px 0px 20px #ffffff;
+  font-weight: 500;
+}
+
+body {
+  background-size: cover;
+}
+
+.game-wrapper {
+  display: grid;
+  grid-template-columns: 20rem 20rem 1fr 1fr 260px;
+  grid-template-rows: 2fr 1fr;
+  justify-items: start;
+}
+
+.two-player-game-wrapper {
+  display: grid;
+  grid-template-columns: 20rem 20rem 1fr 1fr 220px;
+  grid-template-rows: 280px 280px 100px;
+  justify-items: start;
+
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding:0.2rem;
+  padding-bottom: 0.1rem;
+  min-height: 560px;
+  /* max-width: 80vw; */
+  min-width: 900px;
+  /* aspect-ratio: 8/3; */
+  grid-row: 1/3;
+  grid-column: 1/5;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 17px;
+}
+
+
+/* ------------------ OPPONENT CARD ----------------------*/
+
+.opponentcard{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    position: relative;
+    grid-column: 5;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    width:100%;
+    
+}
+
+.opp-logo{
+  width: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform:rotate(-10deg)
+}
+
+/* .two-player-opponentcard {
+  grid-column: 5;
+  grid-row: 1;
+  border: 3px solid green;
+} */
+
+.grayscale {
+  filter: grayscale(100%)
+}
+
+.two-player-usercard {
+  grid-column: 5;
+  grid-row: 2;
+  /* border: 2px solid black; */
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 17px;
+
+}
+
+.aliencard {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.capture-border {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.border {
+  border: 2px solid rgb(95, 16, 137);
+  border-radius: 15px;
+}
+
+/* ------------------------ ALIEN CARD --------------------------- */
+
+.aliencard-container {
+ height: 33%;
+ width: 12%;
+ position: relative;
+}
+
+.alien-planet, .alien-body, .alien-eyes, .alien-mouth, .alien-horns, .alien-antenna {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* border-radius: 13px; */
+  -webkit-user-drag: none;
+}
+
+.alien-planet {
+  position: relative !important;
+  min-height:180px ;
+  
+  
+}
+
+.inactive {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  border: 2px solid rgb(95, 16, 137);
+  border-radius: 15px;
+  
+}
+
+.eliminate {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+  
+}
+
+.alien-name-holder {
+  background-color: rgba(76, 76, 76, 0.486);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0px 0px 15px 15px;
+  justify-content: center;
+}
+
+.alien-name {
+  color: white;
+  font-weight: 600;
+}
+
+/* ---------------------------User Stats---------------------- */
+.user-stats  {
+  box-sizing: border-box;
+    border: 2px solid black;
+    justify-self: stretch;
+    grid-row: 3;
+    grid-column: 3/5 ;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 0.5rem;
+   
+    
+}
+.timer {
+    color: rgb(213, 192, 213);
+    background: rgb(95, 16, 137);
+    border-radius: 10px;
+    padding: 0.3rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    
+    min-width: 30%;
+    max-width: 50%;
+    justify-items: center;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+.alien-stats {
+    box-sizing: border-box;
+    border: 2px solid   rgb(213, 192, 213); 
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    color: rgb(213, 192, 213);
+    margin-top: 1rem;
+    background: rgb(95, 16, 137);
+    border-radius: 10px;
+}
+.timer h1 {
+    font-weight: 700;
+}
+
+.timer h1, h2 {
+    display: inline;
+
+}
+
+.longer {
+  grid-row: 1/3;
+}
+
+/* width: 50vw;
+  height: 50vh;
+  min-width: 400px;
+  min-height: 460px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin-top: 10%;
+  margin-left: 25%;
+  border-radius: 15px;
+  padding: 25px; */
+
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(35, 35, 35, 0.65);
+  width: 100vw;
+  height: 100vh;
+}
+.hidden-modal {
+  display: none !important;
+  transform: translate(99999);
+  position: absolute;
+}
+
+/* .text-box{
+  width: 500px;
+  height: 500px;
+} */
+
+.text-box {
+  width: 40vw;
+  height: auto;
+  min-width: 450px;
+  min-height: 460px;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: relative;
+  margin-top: 10%;
+  margin-left: 30%;
+  z-index: 2;
+  border-radius: 15px;
+  padding: 25px;
+  border: 2px solid black;
+}
+
+.textbox-contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-box h2 {
+  font-size: 2rem;
+}
+
+.text-box p {
+  padding-top: 0.3rem;
+}
+
+.stats-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.end-modal-btns{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  margin:0 auto;
+  margin-top: 1rem;
+  padding:0.5rem;
+  
+}
+
+.play-home{
+  display: flex;
+  flex-direction: row;
+  padding-bottom:0.5rem;
+}
+
+.play-home button{
+  width:7rem;
+}
+
+.play-home button:hover{
+  width:7rem;
+}
+
+
+
+#room-name {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+/* ----------------- QUESTION CARD ----------------- */
+.questioncard {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  box-sizing: border-box;
+  grid-row: 3 ;
+  grid-column: 1/3;
+  width:100%;
+  min-width:40rem;
+  padding:0.5rem;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+}
+#question-variable {
+  width: 140px;
+
+  /* background-color: white; */
+  height:2.5rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  margin: auto;
+  text-align: center;
+}
+
+.questioncard * {
+  margin: auto 1rem;
+}
+
+.question-btn {
+  padding: 0.3rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  font-weight: bold;
+ 
+  background-color: rgb(95, 16, 137);
+  color:rgb(213, 192, 213);
+  border-radius: 10px;
+}
+
+.question-btn:hover {
+  padding: 0.3rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  font-weight: bold;
+ 
+  background-color: linear-gradient(30deg, rgb(95, 16, 137) 5%, rgb(244, 48, 48));
+  color:white;
+  text-shadow: 0px 0px 3px white;
+  border-radius: 10px;
+}
+
+#guess-form {
+  display: flex;
+    
+    padding-right: 1rem;
+    color: black;
+    border-radius: 10px;
+  
+}
+
+#question-prompt-container {
+  display: flex;
+
+  /* white-space: nowrap; */
+  /* justify-content: space-between; */
+}
+#question-prompt-container * {
+  margin: auto 0.5rem;
+}
+
+
+#question-prompt{
+  font-weight: 500;
+  min-width: 200px;
+  padding-top: 0.5rem;
+}
+
+.question-submit-btn {
+  margin: auto;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width:auto;
+  color: rgb(213, 192, 213);
+  background:  rgb(95, 16, 137);
+  border-radius: 10px;
+}
+
+
+.question-submit-btn:hover {
+  margin:auto;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: auto;
+  background: linear-gradient(30deg, rgb(95, 16, 137) 5%, rgb(244, 48, 48));
+  border-radius: 10px;
+  color: white;
+}
+
+.guess-btn {
+  margin: auto;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width:auto;
+  color: rgb(213, 192, 213);
+  background:  rgb(95, 16, 137);
+  border-radius: 10px;
+}
+
+
+.guess-btn:hover {
+  margin:auto;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: auto;
+  background: linear-gradient(30deg, rgb(95, 16, 137) 5%, rgb(244, 48, 48));
+  border-radius: 10px;
+  color: white;
+}
+
+.extended, .extended:hover{
+  width:90%;
+  margin:0 auto;
+}
+
+.response-div {
+  visibility: hidden;
+  position: absolute;
+  top: 128px;
+  right: -10px;
+  z-index: 2;
+  width: 100px;
+}
+
+@keyframes moveout {
+  from {right:220px}
+  to{right:0px}
+}
+
+@keyframes fadeout {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+.response-div-show {
+  visibility: visible;
+  position: absolute;
+  top: 13%;
+  right: 8%;
+  z-index: 2;
+  width: 300px;
+  
+  -webkit-animation-name: fadeout, moveout;
+  -webkit-animation-duration: 1s, 0.1s;
+  -webkit-animation-delay: 1s, 4.1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeout, moveout;
+  animation-duration: 1s, 0.1s;
+
+
+}
+
+.response-div-show img {
+  position: relative;
+  z-index: 0;
+  width: 20rem;
+}
+
+.response-text {
+  position: absolute;
+
+  top: 12%;
+  left: 21%;
+  display: flex;
+  width: 150px;
+  height:150px;
+
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+
+.loading-state-container {
+    z-index: 9;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px black;
+
+}
+
+.loading-state {
+    all: revert;
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: black;
+    font-size: 2em;
+    max-height: inherit;
+    text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px white;
+    display: flex;
+    width: 20%;
+    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#flying-saucer {
+    max-width: 100%;
+    filter: drop-shadow(0px 0px 10px white);
+}
+
+
+
+
+
+.question-mark{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: rgb(14, 41, 137);
+    font-size: 100px;
+}
+.winner-card{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.text-box h1{
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(45, 31, 174);
+} 
+
+.two-player-score {
+  box-sizing: border-box;
+  border: 2px solid black;
+  justify-self: stretch;
+  grid-row: 3;
+  grid-column: 5;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scoreboard {
+  display: flex;
+}
+
+.leaderboard {
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 40rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+}
+
+.leaderboard-text-box {
+  width: 50vw;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: relative;
+  top: 10%;
+  left: 25%;
+  z-index: 2;
+  border-radius: 15px;
+  padding: 25px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.result-row > * {
+  min-width: 10vw;
+}
+
+.result-row {
+  flex-direction: row;
+  color: rgb(213, 192, 213);
+  background: rgb(95, 16, 137);
+  border-radius: 10px;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 30%;
+  max-width: 80%;
+  justify-items: center;
+  display: flex;
+  margin: 1rem auto;
+}
+
+.leaderboard-buttons {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  width: 10vw;
+  background: linear-gradient(30deg, rgb(163, 64, 249) 5%, rgb(230, 208, 251));
+  border-radius: 5px;
+}
+
+.leaderboard-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.change-page-buttons {
+  border: 2px solid rgb(163, 64, 249);
+  width: 30px;
+  border-radius: 5px;
+}
+
+.change-page-buttons:hover {
+  background-color: rgb(163, 64, 249);
+  color: #ffffff;
+}
+
+.leaderboard-title {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.play-again {
+  margin: 0;
+}
+
+#turn-placeholder {
+  margin: auto;
+  font-size: 3rem;
+}
+
+.test {
+  padding-bottom: 1vh;
+}
+
+
